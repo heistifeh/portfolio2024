@@ -5,6 +5,7 @@ import { FaNodeJs } from 'react-icons/fa'
 import { RiReactjsLine } from 'react-icons/ri'
 import { SiMongodb } from 'react-icons/si'
 import { TbBrandNextjs } from 'react-icons/tb'
+import { RiTailwindCssFill } from "react-icons/ri";
 import { easeIn, motion } from 'framer-motion'
 
 const iconVariants = (duration) => ({
@@ -63,7 +64,7 @@ const Technologies = () => {
                 animate="animate"
                 variants={iconVariants(2)} 
                 className='p-4'>
-                    <DiRedis className='text-7xl text-red-700' />
+                    <RiTailwindCssFill className='text-7xl text-blue-500' />
                 </motion.div>
                 <motion.div
                 initial="initial"
@@ -72,13 +73,7 @@ const Technologies = () => {
                 className='p-4'>
                     <FaNodeJs className='text-7xl text-green-500' />
                 </motion.div>
-                <motion.div
-                initial="initial"
-                animate="animate"
-                variants={iconVariants(4)} 
-                className="p-4">
-                    <BiLogoPostgresql className='text-7xl text-sky-700' />
-                </motion.div>
+              
 
             </motion.div>
 

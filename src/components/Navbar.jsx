@@ -16,7 +16,7 @@ const Navbar = () => {
             aria-label='Linkedin'>
                 <FaLinkedin />
             </a>
-            <a href="https://www.linkedin.com/in/"
+            <a href="https://github.com/heistifeh"
             target='_blank'
             rel='noopener noreferrer'
             aria-label='GitHub'>

@@ -1,5 +1,5 @@
 import React from 'react'
-import profilePic from "../assets/raviKumarProfile.webp"
+import profilePic from "../assets/tife.jpg"
 import { HERO_CONTENT } from "../constants"
 import { motion } from 'framer-motion'
 const Hero = () => {
@@ -60,7 +60,7 @@ const Hero = () => {
 
                             className='bg-white rounded-full p-4 text-sm text-stone-800 mb-10'
                         >
-                            Downoad Resume
+                            {/* Downoad Resume */}
                         </motion.a>
                     </motion.div>
                 </div>
