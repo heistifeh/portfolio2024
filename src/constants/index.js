@@ -14,7 +14,7 @@ export const EXPERIENCES = [
     company: "Sabi Programmers",
     description: `Contributed to the development of an e-voting app, which was presented as the company's first project at the yearly event. Focused on building responsive and user-friendly interfaces using React.js and JavaScript, ensuring seamless user experiences. Collaborated closely with the development team to implement features and resolve bugs.`,
     technologies: ["React.js", "JavaScript", "HTML", "CSS"],
-  }
+  },
 ];
 
 export const PROJECTS = [
@@ -46,10 +46,17 @@ export const PROJECTS = [
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["React", "MongoDB", "Express"],
   },
+  {
+    title: "Banking Website and Apllication",
+    image: project4,
+    description:
+      "A secure and user-friendly banking platform that enables users to manage accounts, transfer funds, pay bills, and access financial insights. Features include account dashboards, transaction tracking, and customer support integration.",
+    technologies: ["HTML", "CSS", "JAVASCRIPT"],
+  },
 ];
 
 export const CONTACT = {
-  address: "121 Adekoya street, Sagamu. ",
+  address: "Ibadan, Nigeria. ",
   phoneNo: "08050668634",
-  email: "teefeh26@gmail.com",
+  email: "boluwatifeOsineye26@gmail.com",
 };
